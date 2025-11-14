@@ -1,0 +1,8 @@
+# API Flask
+Flask
+Flask-CORS
+gunicorn
+
+# Testes
+pytest
+requests
