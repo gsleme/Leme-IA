@@ -31,23 +31,23 @@ logger = logging.getLogger(__name__)
 
 try:
     # Modelo de Classificação
-    with open('./models/leme_modelo_classificacao.pkl', 'rb') as f:
+    with open('../models/leme_modelo_classificacao.pkl', 'rb') as f:
         modelo_class = pickle.load(f)
-    with open('./models/leme_scaler_class.pkl', 'rb') as f:
+    with open('../models/leme_scaler_class.pkl', 'rb') as f:
         scaler_class = pickle.load(f)
     
     # Modelo de Regressão
-    with open('./models/leme_modelo_regressao.pkl', 'rb') as f:
+    with open('../models/leme_modelo_regressao.pkl', 'rb') as f:
         modelo_reg = pickle.load(f)
-    with open('./models/leme_scaler_reg.pkl', 'rb') as f:
+    with open('../models/leme_scaler_reg.pkl', 'rb') as f:
         scaler_reg = pickle.load(f)
     
     # Encoders
-    with open('./models/leme_encoders.pkl', 'rb') as f:
+    with open('../models/leme_encoders.pkl', 'rb') as f:
         encoders = pickle.load(f)
     
     # Catálogo de trilhas
-    with open('./data/leme_trilhas.json', 'r', encoding='utf-8') as f:
+    with open('../data/leme_trilhas.json', 'r', encoding='utf-8') as f:
         TRILHAS = json.load(f)
     
     logger.info("✅ Modelos carregados com sucesso")
