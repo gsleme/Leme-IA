@@ -1,122 +1,554 @@
 {
   "Advogado": {
+    "id_trilha": "a1b2c3d4-e5f6-47a8-9b0c-1d2e3f4a5b6c",
     "nome": "IA para Advogados",
     "modulos": [
-      "Módulo 1: Introdução à IA Jurídica",
-      "Módulo 2: Automação de Contratos",
-      "Módulo 3: Análise de Jurisprudência com IA",
-      "Módulo 4: Ética e Responsabilidade Digital",
-      "Módulo 5: Prática com Ferramentas Jurídicas"
+      {
+        "titulo": "Módulo 1: Introdução à IA Jurídica",
+        "xp_recompensa": 100,
+        "ordem": 1,
+        "tipo": "video",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://www.youtube.com/watch?v=QC9TOfJVIic"
+      },
+      {
+        "titulo": "Módulo 2: Automação e Redação de Documentos Legais",
+        "xp_recompensa": 100,
+        "ordem": 2,
+        "tipo": "texto",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://cursos.lexter.ai/ia-no-direito"
+      },
+      {
+        "titulo": "Módulo 3: Análise de Jurisprudência com IA",
+        "xp_recompensa": 100,
+        "ordem": 3,
+        "tipo": "video",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://www.ebradi.com.br/curso/inteligencia-artificial-aplicada-a-advocacia/"
+      },
+      {
+        "titulo": "Módulo 4: Ética e LGPD na Advocacia Digital",
+        "xp_recompensa": 100,
+        "ordem": 4,
+        "tipo": "texto",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://cursos.lexter.ai/ia-no-direito"
+      },
+      {
+        "titulo": "Módulo 5: Casos Práticos e Segurança com IA",
+        "xp_recompensa": 100,
+        "ordem": 5,
+        "tipo": "video",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://betrybe.com/inteligencia-artificial/curso-ia-para-direito"
+      }
     ]
   },
   "Design": {
+    "id_trilha": "b2c3d4e5-f6a7-48b9-c0d1-e2f3a4b5c6d7",
     "nome": "IA para Designers",
     "modulos": [
-      "Módulo 1: Fundamentos de IA Generativa",
-      "Módulo 2: Ferramentas de Design com IA",
-      "Módulo 3: Criação de Imagens e Protótipos",
-      "Módulo 4: UX/UI Acessível",
-      "Módulo 5: Portfolio Digital"
+      {
+        "titulo": "Módulo 1: Fundamentos de IA Generativa para Criativos",
+        "xp_recompensa": 100,
+        "ordem": 1,
+        "tipo": "video",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://www.cnnbrasil.com.br/tecnologia/conheca-5-cursos-gratuitos-para-aprender-sobre-inteligencia-artificial/"
+      },
+      {
+        "titulo": "Módulo 2: Criação de Imagens e Estilos com Prompts",
+        "xp_recompensa": 100,
+        "ordem": 2,
+        "tipo": "video",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://www.domestika.org/pt/courses/area/251-design-de-ia"
+      },
+      {
+        "titulo": "Módulo 3: Prototipação Rápida e Geração de Mockups",
+        "xp_recompensa": 100,
+        "ordem": 3,
+        "tipo": "texto",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://www.domestika.org/pt/courses/area/251-design-de-ia"
+      },
+      {
+        "titulo": "Módulo 4: Automação de Tarefas no Figma e Adobe",
+        "xp_recompensa": 100,
+        "ordem": 4,
+        "tipo": "video",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://www.ev.org.br/cursos/inteligencia-artificial-e-o-novo-contexto-da-cultura-digital"
+      },
+      {
+        "titulo": "Módulo 5: Ética e Direitos Autorais na IA de Imagem",
+        "xp_recompensa": 100,
+        "ordem": 5,
+        "tipo": "texto",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://www.cnnbrasil.com.br/tecnologia/conheca-5-cursos-gratuitos-para-aprender-sobre-inteligencia-artificial/"
+      }
     ]
   },
   "Secretariado": {
+    "id_trilha": "c3d4e5f6-a7b8-49c0-d1e2-f3a4b5c6d7e8",
     "nome": "IA para Secretariado",
     "modulos": [
-      "Módulo 1: Assistentes Virtuais e Automação",
-      "Módulo 2: Gestão de Agenda e Tarefas",
-      "Módulo 3: Comunicação Empresarial com IA",
-      "Módulo 4: Organização de Documentos",
-      "Módulo 5: Soft Skills para Secretariado"
+      {
+        "titulo": "Módulo 1: Automatizando a Comunicação (E-mail e Atas)",
+        "xp_recompensa": 100,
+        "ordem": 1,
+        "tipo": "texto",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://companhiapropria.com/course/view.php?id=13"
+      },
+      {
+        "titulo": "Módulo 2: Gestão Inteligente de Agenda e Reuniões",
+        "xp_recompensa": 100,
+        "ordem": 2,
+        "tipo": "video",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://companhiapropria.com/course/view.php?id=13"
+      },
+      {
+        "titulo": "Módulo 3: Organização de Documentos e Arquivos com IA",
+        "xp_recompensa": 100,
+        "ordem": 3,
+        "tipo": "texto",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://companhiapropria.com/course/view.php?id=13"
+      },
+      {
+        "titulo": "Módulo 4: Elaboração de Relatórios e Resumos Executivos",
+        "xp_recompensa": 100,
+        "ordem": 4,
+        "tipo": "video",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2024/Julho/curso-de-inteligencia-artificial-em-ambientes-educacionais-entra-na-plataforma-da-escola-do-trabalhador-4-0-do-mte"
+      },
+      {
+        "titulo": "Módulo 5: Produtividade e Soft Skills",
+        "xp_recompensa": 100,
+        "ordem": 5,
+        "tipo": "texto",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://www.cps.sp.gov.br/cps-lanca-curso-livre-online-gratuito-sobre-inteligencia-artificial/"
+      }
     ]
   },
   "Contabilidade": {
+    "id_trilha": "d4e5f6g7-b8c9-4d0e-1f2g-3h4i5j6k7l8m",
     "nome": "IA para Contabilidade",
     "modulos": [
-      "Módulo 1: IA na Gestão Financeira",
-      "Módulo 2: Análise de Dados Contábeis",
-      "Módulo 3: Automação de Processos Fiscais",
-      "Módulo 4: Auditoria com IA",
-      "Módulo 5: Relatórios Inteligentes"
+      {
+        "titulo": "Módulo 1: Fundamentos de IA na Contabilidade",
+        "xp_recompensa": 100,
+        "ordem": 1,
+        "tipo": "video",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://codeforall.com/cursos-iniciacao/inteligencia-artificial-setor-contabilidade"
+      },
+      {
+        "titulo": "Módulo 2: Automação de Lançamentos e Conciliações",
+        "xp_recompensa": 100,
+        "ordem": 2,
+        "tipo": "texto",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://codeforall.com/cursos-iniciacao/inteligencia-artificial-setor-contabilidade"
+      },
+      {
+        "titulo": "Módulo 3: Análise Preditiva de Balanços com IA",
+        "xp_recompensa": 100,
+        "ordem": 3,
+        "tipo": "video",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://www.ev.org.br/cursos"
+      },
+      {
+        "titulo": "Módulo 4: Auditoria Assistida por Inteligência Artificial",
+        "xp_recompensa": 100,
+        "ordem": 4,
+        "tipo": "texto",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://faculdadeebpos.edu.br/curso/direito/inteligencia-artificial-para-a-contabilidade/"
+      },
+      {
+        "titulo": "Módulo 5: Criação de Prompts para Consultas Fiscais",
+        "xp_recompensa": 100,
+        "ordem": 5,
+        "tipo": "video",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://codeforall.com/cursos-iniciacao/inteligencia-artificial-setor-contabilidade"
+      }
     ]
   },
   "Logistica": {
+    "id_trilha": "e5f6g7h8-c9d0-4e1f-2g3h-4i5j6k7l8m9n",
     "nome": "IA para Logística",
     "modulos": [
-      "Módulo 1: Otimização de Rotas com IA",
-      "Módulo 2: Previsão de Demanda",
-      "Módulo 3: Gestão de Estoque Inteligente",
-      "Módulo 4: Rastreamento e IoT",
-      "Módulo 5: Sustentabilidade Logística"
+      {
+        "titulo": "Módulo 1: Otimização de Rotas e Distribuição",
+        "xp_recompensa": 100,
+        "ordem": 1,
+        "tipo": "video",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://www.coursera.org/learn/inteligencia-artificial-para-logistica"
+      },
+      {
+        "titulo": "Módulo 2: Previsão de Demanda e Estoque Preditivo",
+        "xp_recompensa": 100,
+        "ordem": 2,
+        "tipo": "texto",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://www.coursera.org/learn/inteligencia-artificial-para-logistica"
+      },
+      {
+        "titulo": "Módulo 3: Gestão de Armazéns (WMS) e IoT",
+        "xp_recompensa": 100,
+        "ordem": 3,
+        "tipo": "video",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://www.coursera.org/learn/inteligencia-artificial-para-logistica"
+      },
+      {
+        "titulo": "Módulo 4: Rastreamento e Controle de Frotas",
+        "xp_recompensa": 100,
+        "ordem": 4,
+        "tipo": "texto",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://www.classcentral.com/course/inteligencia-artificial-para-logistica-58866"
+      },
+      {
+        "titulo": "Módulo 5: Logística Reversa e Sustentável",
+        "xp_recompensa": 100,
+        "ordem": 5,
+        "tipo": "video",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://www.coursera.org/learn/inteligencia-artificial-para-logistica"
+      }
     ]
   },
   "SoftSkills": {
+    "id_trilha": "f6g7h8i9-d0e1-4f2g-3h4i-5j6k7l8m9n0o",
     "nome": "Soft Skills Essenciais",
     "modulos": [
-      "Módulo 1: Comunicação Eficaz",
-      "Módulo 2: Liderança Inclusiva",
-      "Módulo 3: Resolução de Problemas",
-      "Módulo 4: Trabalho em Equipe",
-      "Módulo 5: Adaptabilidade e Resiliência"
+      {
+        "titulo": "Módulo 1: Comunicação Interpessoal e Feedback",
+        "xp_recompensa": 100,
+        "ordem": 1,
+        "tipo": "texto",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://br.learncafe.com/cursos/fortalecendo-suas-soft-skills-no-ambito-profissional"
+      },
+      {
+        "titulo": "Módulo 2: Inteligência Emocional e Liderança Inclusiva",
+        "xp_recompensa": 100,
+        "ordem": 2,
+        "tipo": "video",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://anglocursos.combr/cursos/de/educacao/soft-skills/gratis"
+      },
+      {
+        "titulo": "Módulo 3: Criatividade, Inovação e Resolução de Problemas",
+        "xp_recompensa": 100,
+        "ordem": 3,
+        "tipo": "texto",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://escolaconquer.com.br/materiais-gratuitos/"
+      },
+      {
+        "titulo": "Módulo 4: Trabalho em Equipe e Colaboração Remota",
+        "xp_recompensa": 100,
+        "ordem": 4,
+        "tipo": "video",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://br.learncafe.com/cursos/fortalecendo-suas-soft-skills-no-ambito-profissional"
+      },
+      {
+        "titulo": "Módulo 5: Gestão do Tempo e Produtividade Pessoal",
+        "xp_recompensa": 100,
+        "ordem": 5,
+        "tipo": "texto",
+        "adaptacao_necessaria": "nenhuma",
+        "conteudo": "https://anglocursos.combr/cursos/de/educacao/soft-skills/gratis"
+      }
     ]
   },
   "Advogado_Acessivel": {
+    "id_trilha": "a1b2c3d4-e5f6-47a8-9b0c-1d2e3f4a5b6d",
     "nome": "IA para Advogados (Acessível)",
     "modulos": [
-      "Módulo 1: Introdução à IA Jurídica",
-      "Módulo 2: Automação de Contratos",
-      "Módulo 3: Análise de Jurisprudência com IA",
-      "Módulo 4: Ética e Responsabilidade Digital",
-      "Módulo 5: Prática com Ferramentas Jurídicas"
+      {
+        "titulo": "Módulo 1: Introdução à IA Jurídica (Audiodescrição)",
+        "xp_recompensa": 100,
+        "ordem": 1,
+        "tipo": "video",
+        "adaptacao_necessaria": "audiodescricao",
+        "conteudo": "https://www.youtube.com/watch?v=QC9TOfJVIic"
+      },
+      {
+        "titulo": "Módulo 2: Automação e Redação de Documentos (Leitor de Tela)",
+        "xp_recompensa": 100,
+        "ordem": 2,
+        "tipo": "texto",
+        "adaptacao_necessaria": "leitor_tela",
+        "conteudo": "https://cursos.lexter.ai/ia-no-direito"
+      },
+      {
+        "titulo": "Módulo 3: Análise de Jurisprudência com IA (Vídeo com Libras)",
+        "xp_recompensa": 100,
+        "ordem": 3,
+        "tipo": "video",
+        "adaptacao_necessaria": "libras",
+        "conteudo": "https://www.ebradi.com.br/curso/inteligencia-artificial-aplicada-a-advocacia/"
+      },
+      {
+        "titulo": "Módulo 4: Ética e LGPD na Advocacia Digital (Leitor de Tela)",
+        "xp_recompensa": 100,
+        "ordem": 4,
+        "tipo": "texto",
+        "adaptacao_necessaria": "leitor_tela",
+        "conteudo": "https://cursos.lexter.ai/ia-no-direito"
+      },
+      {
+        "titulo": "Módulo 5: Casos Práticos e Segurança com IA (Audiodescrição)",
+        "xp_recompensa": 100,
+        "ordem": 5,
+        "tipo": "video",
+        "adaptacao_necessaria": "audiodescricao",
+        "conteudo": "https://betrybe.com/inteligencia-artificial/curso-ia-para-direito"
+      }
     ]
   },
   "Design_Acessivel": {
+    "id_trilha": "b2c3d4e5-f6a7-48b9-c0d1-e2f3a4b5c6d8",
     "nome": "IA para Designers (Acessível)",
     "modulos": [
-      "Módulo 1: Fundamentos de IA Generativa",
-      "Módulo 2: Ferramentas de Design com IA",
-      "Módulo 3: Criação de Imagens e Protótipos",
-      "Módulo 4: UX/UI Acessível",
-      "Módulo 5: Portfolio Digital"
+      {
+        "titulo": "Módulo 1: Fundamentos de IA Generativa (Libras)",
+        "xp_recompensa": 100,
+        "ordem": 1,
+        "tipo": "video",
+        "adaptacao_necessaria": "libras",
+        "conteudo": "https://www.cnnbrasil.com.br/tecnologia/conheca-5-cursos-gratuitos-para-aprender-sobre-inteligencia-artificial/"
+      },
+      {
+        "titulo": "Módulo 2: Criação de Imagens e Estilos (Leitor de Tela)",
+        "xp_recompensa": 100,
+        "ordem": 2,
+        "tipo": "video",
+        "adaptacao_necessaria": "leitor_tela",
+        "conteudo": "https://www.domestika.org/pt/courses/area/251-design-de-ia"
+      },
+      {
+        "titulo": "Módulo 3: Prototipação Rápida (Baixa Visão)",
+        "xp_recompensa": 100,
+        "ordem": 3,
+        "tipo": "texto",
+        "adaptacao_necessaria": "baixa_visao",
+        "conteudo": "https://www.domestika.org/pt/courses/area/251-design-de-ia"
+      },
+      {
+        "titulo": "Módulo 4: Automação de Tarefas no Figma e Adobe (Audiodescrição)",
+        "xp_recompensa": 100,
+        "ordem": 4,
+        "tipo": "video",
+        "adaptacao_necessaria": "audiodescricao",
+        "conteudo": "https://www.ev.org.br/cursos/inteligencia-artificial-e-o-novo-contexto-da-cultura-digital"
+      },
+      {
+        "titulo": "Módulo 5: Ética e Direitos Autorais (Leitor de Tela)",
+        "xp_recompensa": 100,
+        "ordem": 5,
+        "tipo": "texto",
+        "adaptacao_necessaria": "leitor_tela",
+        "conteudo": "https://www.cnnbrasil.com.br/tecnologia/conheca-5-cursos-gratuitos-para-aprender-sobre-inteligencia-artificial/"
+      }
     ]
   },
   "Secretariado_Acessivel": {
+    "id_trilha": "c3d4e5f6-a7b8-49c0-d1e2-f3a4b5c6d7e9",
     "nome": "IA para Secretariado (Acessível)",
     "modulos": [
-      "Módulo 1: Assistentes Virtuais e Automação",
-      "Módulo 2: Gestão de Agenda e Tarefas",
-      "Módulo 3: Comunicação Empresarial com IA",
-      "Módulo 4: Organização de Documentos",
-      "Módulo 5: Soft Skills para Secretariado"
+      {
+        "titulo": "Módulo 1: Automatizando a Comunicação (Comando de Voz)",
+        "xp_recompensa": 100,
+        "ordem": 1,
+        "tipo": "texto",
+        "adaptacao_necessaria": "comando_voz",
+        "conteudo": "https://companhiapropria.com/course/view.php?id=13"
+      },
+      {
+        "titulo": "Módulo 2: Gestão Inteligente de Agenda e Reuniões (Libras)",
+        "xp_recompensa": 100,
+        "ordem": 2,
+        "tipo": "video",
+        "adaptacao_necessaria": "libras",
+        "conteudo": "https://companhiapropria.com/course/view.php?id=13"
+      },
+      {
+        "titulo": "Módulo 3: Organização de Documentos e Arquivos (Leitor de Tela)",
+        "xp_recompensa": 100,
+        "ordem": 3,
+        "tipo": "texto",
+        "adaptacao_necessaria": "leitor_tela",
+        "conteudo": "https://companhiapropria.com/course/view.php?id=13"
+      },
+      {
+        "titulo": "Módulo 4: Elaboração de Relatórios e Resumos Executivos (Audiodescrição)",
+        "xp_recompensa": 100,
+        "ordem": 4,
+        "tipo": "video",
+        "adaptacao_necessaria": "audiodescricao",
+        "conteudo": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2024/Julho/curso-de-inteligencia-artificial-em-ambientes-educacionais-entra-na-plataforma-da-escola-do-trabalhador-4-0-do-mte"
+      },
+      {
+        "titulo": "Módulo 5: Produtividade e Soft Skills (Baixa Visão)",
+        "xp_recompensa": 100,
+        "ordem": 5,
+        "tipo": "texto",
+        "adaptacao_necessaria": "baixa_visao",
+        "conteudo": "https://www.cps.sp.gov.br/cps-lanca-curso-livre-online-gratuito-sobre-inteligencia-artificial/"
+      }
     ]
   },
   "Contabilidade_Acessivel": {
+    "id_trilha": "d4e5f6g7-b8c9-4d0e-1f2g-3h4i5j6k7l8n",
     "nome": "IA para Contabilidade (Acessível)",
     "modulos": [
-      "Módulo 1: IA na Gestão Financeira",
-      "Módulo 2: Análise de Dados Contábeis",
-      "Módulo 3: Automação de Processos Fiscais",
-      "Módulo 4: Auditoria com IA",
-      "Módulo 5: Relatórios Inteligentes"
+      {
+        "titulo": "Módulo 1: Fundamentos de IA na Contabilidade (Audiodescrição)",
+        "xp_recompensa": 100,
+        "ordem": 1,
+        "tipo": "video",
+        "adaptacao_necessaria": "audiodescricao",
+        "conteudo": "https://codeforall.com/cursos-iniciacao/inteligencia-artificial-setor-contabilidade"
+      },
+      {
+        "titulo": "Módulo 2: Automação de Lançamentos (Comando de Voz)",
+        "xp_recompensa": 100,
+        "ordem": 2,
+        "tipo": "texto",
+        "adaptacao_necessaria": "comando_voz",
+        "conteudo": "https://codeforall.com/cursos-iniciacao/inteligencia-artificial-setor-contabilidade"
+      },
+      {
+        "titulo": "Módulo 3: Análise Preditiva de Balanços (Leitor de Tela)",
+        "xp_recompensa": 100,
+        "ordem": 3,
+        "tipo": "video",
+        "adaptacao_necessaria": "leitor_tela",
+        "conteudo": "https://www.ev.org.br/cursos"
+      },
+      {
+        "titulo": "Módulo 4: Auditoria Assistida por IA (Libras)",
+        "xp_recompensa": 100,
+        "ordem": 4,
+        "tipo": "texto",
+        "adaptacao_necessaria": "libras",
+        "conteudo": "https://faculdadeebpos.edu.br/curso/direito/inteligencia-artificial-para-a-contabilidade/"
+      },
+      {
+        "titulo": "Módulo 5: Criação de Prompts para Consultas Fiscais (Baixa Visão)",
+        "xp_recompensa": 100,
+        "ordem": 5,
+        "tipo": "video",
+        "adaptacao_necessaria": "baixa_visao",
+        "conteudo": "https://codeforall.com/cursos-iniciacao/inteligencia-artificial-setor-contabilidade"
+      }
     ]
   },
   "Logistica_Acessivel": {
+    "id_trilha": "e5f6g7h8-c9d0-4e1f-2g3h-4i5j6k7l8m9o",
     "nome": "IA para Logística (Acessível)",
     "modulos": [
-      "Módulo 1: Otimização de Rotas com IA",
-      "Módulo 2: Previsão de Demanda",
-      "Módulo 3: Gestão de Estoque Inteligente",
-      "Módulo 4: Rastreamento e IoT",
-      "Módulo 5: Sustentabilidade Logística"
+      {
+        "titulo": "Módulo 1: Otimização de Rotas e Distribuição (Libras)",
+        "xp_recompensa": 100,
+        "ordem": 1,
+        "tipo": "video",
+        "adaptacao_necessaria": "libras",
+        "conteudo": "https://www.coursera.org/learn/inteligencia-artificial-para-logistica"
+      },
+      {
+        "titulo": "Módulo 2: Previsão de Demanda e Estoque Preditivo (Leitor de Tela)",
+        "xp_recompensa": 100,
+        "ordem": 2,
+        "tipo": "texto",
+        "adaptacao_necessaria": "leitor_tela",
+        "conteudo": "https://www.coursera.org/learn/inteligencia-artificial-para-logistica"
+      },
+      {
+        "titulo": "Módulo 3: Gestão de Armazéns (WMS) e IoT (Audiodescrição)",
+        "xp_recompensa": 100,
+        "ordem": 3,
+        "tipo": "video",
+        "adaptacao_necessaria": "audiodescricao",
+        "conteudo": "https://www.coursera.org/learn/inteligencia-artificial-para-logistica"
+      },
+      {
+        "titulo": "Módulo 4: Rastreamento e Controle de Frotas (Baixa Visão)",
+        "xp_recompensa": 100,
+        "ordem": 4,
+        "tipo": "texto",
+        "adaptacao_necessaria": "baixa_visao",
+        "conteudo": "https://www.classcentral.com/course/inteligencia-artificial-para-logistica-58866"
+      },
+      {
+        "titulo": "Módulo 5: Logística Reversa e Sustentável (Comando de Voz)",
+        "xp_recompensa": 100,
+        "ordem": 5,
+        "tipo": "video",
+        "adaptacao_necessaria": "comando_voz",
+        "conteudo": "https://www.coursera.org/learn/inteligencia-artificial-para-logistica"
+      }
     ]
   },
   "SoftSkills_Acessivel": {
+    "id_trilha": "f6g7h8i9-d0e1-4f2g-3h4i-5j6k7l8m9n0p",
     "nome": "Soft Skills Essenciais (Acessível)",
     "modulos": [
-      "Módulo 1: Comunicação Eficaz",
-      "Módulo 2: Liderança Inclusiva",
-      "Módulo 3: Resolução de Problemas",
-      "Módulo 4: Trabalho em Equipe",
-      "Módulo 5: Adaptabilidade e Resiliência"
+      {
+        "titulo": "Módulo 1: Comunicação Interpessoal e Feedback (Leitor de Tela)",
+        "xp_recompensa": 100,
+        "ordem": 1,
+        "tipo": "texto",
+        "adaptacao_necessaria": "leitor_tela",
+        "conteudo": "https://br.learncafe.com/cursos/fortalecendo-suas-soft-skills-no-ambito-profissional"
+      },
+      {
+        "titulo": "Módulo 2: Inteligência Emocional e Liderança (Libras)",
+        "xp_recompensa": 100,
+        "ordem": 2,
+        "tipo": "video",
+        "adaptacao_necessaria": "libras",
+        "conteudo": "https://anglocursos.combr/cursos/de/educacao/soft-skills/gratis"
+      },
+      {
+        "titulo": "Módulo 3: Criatividade e Resolução de Problemas (Baixa Visão)",
+        "xp_recompensa": 100,
+        "ordem": 3,
+        "tipo": "texto",
+        "adaptacao_necessaria": "baixa_visao",
+        "conteudo": "https://escolaconquer.com.br/materiais-gratuitos/"
+      },
+      {
+        "titulo": "Módulo 4: Trabalho em Equipe e Colaboração Remota (Audiodescrição)",
+        "xp_recompensa": 100,
+        "ordem": 4,
+        "tipo": "video",
+        "adaptacao_necessaria": "audiodescricao",
+        "conteudo": "https://br.learncafe.com/cursos/fortalecendo-suas-soft-skills-no-ambito-profissional"
+      },
+      {
+        "titulo": "Módulo 5: Gestão do Tempo e Produtividade Pessoal (Comando de Voz)",
+        "xp_recompensa": 100,
+        "ordem": 5,
+        "tipo": "texto",
+        "adaptacao_necessaria": "comando_voz",
+        "conteudo": "https://anglocursos.combr/cursos/de/educacao/soft-skills/gratis"
+      }
     ]
   }
 }
