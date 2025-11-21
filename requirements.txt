@@ -2,6 +2,7 @@
 Flask
 Flask-CORS
 numpy
+sklearn
 gunicorn
 
 # Testes
