@@ -166,8 +166,7 @@ def suggest_trilha():
     
     Response:
         200: {
-            "id_trilha": "a1b2c3d4-e5f6-47a8-9b0c-1d2e3f4a5b6c",
-            "confianca": 0.89
+            "id_trilha": "7a1b2c3d-8e9f-40a1-a2b3-c4d5e6f7a8b0"
         }
         
         400: {"erro": "Campo obrigatório: area"}
@@ -218,7 +217,7 @@ def suggest_trilha():
         trilha_pred = modelo_class.predict(X_scaled)[0]
         logger.info(f"Modelo previu: {trilha_pred}")
         
-        # Buscar trilha no catálogo para pegar o UUID
+        # Buscar UUID diretamente no catálogo
         if trilha_pred not in TRILHAS:
             logger.error(f"Trilha {trilha_pred} não encontrada no catálogo")
             logger.error(f"Trilhas disponíveis: {list(TRILHAS.keys())}")
@@ -226,10 +225,10 @@ def suggest_trilha():
                 'erro': f'Trilha {trilha_pred} não encontrada no catálogo'
             }), 404
         
-        trilha_detalhes = TRILHAS[trilha_pred]
-        id_trilha = trilha_detalhes['id_trilha']
+        # Agora TRILHAS[trilha_pred] já é o UUID diretamente
+        id_trilha = TRILHAS[trilha_pred]
         
-        # Resposta FINAL: apenas UUID e confiança
+        # Resposta FINAL: apenas UUID
         resposta = {
             'id_trilha': id_trilha
         }
